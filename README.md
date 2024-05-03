@@ -27,6 +27,21 @@ As the name suggests, a home lab is a space where you may hone your talents in a
 <h2>Configuring pfsense</h2>
 <p>pfsense will be configured as a firewall to segment our private homelab network and will be only accessible from our Kali Linux machine.</p>
 <br>
+<p>Click “Create a New Virtual Machine” on VMware Workstation Homescreen.</p>
+<br>
+<p>Make sure “Typical (recommended)” is selected and click Next.</p>
+<br>
+<p align="center">
+<img src="https://imgur.com/Uh8o283.png" height="40%" width="30%" alt="VMware"/>
+</p>
+<p>Click “Browse” and navigate to the folder where your pfsense file is located.</p>
+<br>
+<p>Click Next.
+<p align="center">
+<img src="https://imgur.com/4ukxCXk.png" height="40%" width="30%" alt="VMware"/>
+</p>
+<p>Rename your Virtual Machine. Preferably “pfsense”</p>
+<br>
 <p>Download the pfsense ISO file from here: <a href="https://www.pfsense.org/download/">Download pfsense community edition</a></p>
 <br>
 <p>After you download pfsense, you will need to also download 7 zip file manager. Afterwards right click pfsense file, press 7-Zip and then extract to "pfsense".</p>
