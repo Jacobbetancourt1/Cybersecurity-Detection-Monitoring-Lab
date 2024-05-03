@@ -36,14 +36,3 @@ As the name suggests, a home lab is a space where you may hone your talents in a
 </p>
 <p>Click “Browse” and navigate to the folder where your pfsense file is located.</p>
 <br>
-<p>Click Next.
-<p align="center">
-<img src="https://imgur.com/4ukxCXk.png" height="40%" width="30%" alt="VMware"/>
-</p>
-<p>Rename your Virtual Machine. Preferably “pfsense”</p>
-<br>
-<p>Download the pfsense ISO file from here: <a href="https://www.pfsense.org/download/">Download pfsense community edition</a></p>
-<br>
-<p>After you download pfsense, you will need to also download 7 zip file manager. Afterwards right click pfsense file, press 7-Zip and then extract to "pfsense".</p>
-<p>Download 7 zip file manager here: <a href="https://www.7-zip.org/">Download 7-Zip file manager</a></p>
-<br>
