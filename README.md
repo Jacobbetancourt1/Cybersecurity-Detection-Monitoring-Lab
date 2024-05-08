@@ -70,3 +70,98 @@ Git is a version control system that enables several developers to work together
 <img src="https://imgur.com/g7OazIb.png" height="80%" width="80%" alt="GIT SSH ACCESS"/>
   <p>That is how you we get SSH Access to our Github utilizing the CLI!</p>
 
+<h1>Creating a Repository</h1>
+
+  <p>On github website, lets create a new repository. There are a few ways to create this and is pretty straightforward</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/2WfJshH.png" height="60%" width="60%" alt="CREATEING A REPOSITORY"/>
+  <p>Lets name our new repository and make it pubic, you can name it whatever you want</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/CTjSszw.png" height="60%" width="60%" alt="CREATEING A REPOSITORY"/>
+  <p>Perfect! You created your new repository, below, lets follow <b>Create a new repository on the command line</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/T8Emsz2.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>Type <b>echo "# cloud-bootcamp" >> README.md</b> This not only creates the file README.md but echoes the content we made in the file also</p>
+  <p>Lets verify this by typing: <b>cat README.md</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/a7RpIK7.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>Now lets initialize this repository inside the folder you created. For example, I'm currently in Desktop/Cloud/cloud-bootcamp</p>
+  <p>Type: <b>git init</b> now run <b>git status</b>, This allows us to see what files are being tracked or not tracked; We can currently see README.md is not being tracked and has not been commited</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/oDj1ejP.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>Go ahead and type: <b>git add .</b> and run <b>git status</b> again. Notice that we have added this file and is now ready to be commited</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/XL1Aecx.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>I ran into an issue here, pretty much had to change the email at the bottom to my username on github</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/QtkTHVP.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>Type: <b>git config --global user.name "Your_Username"</b> and run <b>git commit -m "first commit readme"</b></p>
+  <p>This command commits the file into the repository, and as best practice you should always add a description of why or what you did to this file using the <b>-m "description"</b> command</p>
+  <p>Run <b>git status</b> and it should say nothing to commit which is fine; THEN type: <b>git branch -M main</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/nTPRJ0r.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>Go to github and click profile picture, then click settings</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/VAVYray.png" height="10%" width="30%" alt="CREATING A REPOSITORY"/>
+  <p>Then on bottom left click Developer Settings</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/0mjGLZp.png" height="10%" width="30%" alt="CREATING A REPOSITORY"/>
+  <p>Click Personal Access tokens and click Tokens (classic)</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/CQreRPN.png" height="10%" width="30%" alt="CREATING A REPOSITORY"/>
+  <p>Generate new token</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/NbJ7Y9E.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+<p>Type whatever name and make sure to check all scopes to give all access</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/Q3kUwqw.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>Now go to CLI and type: <b>git push -u origin main</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/tFazgCP.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>Go back to your recently created repository on github</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/xlyPgUq.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>On CLI type: <b>vim README.md</b></p>
+  <p align="center">
+<br/>
+<img src="https://imgur.com/liY8Xgc.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>press <b>i</b> and type in <b>updating file</b>. Press <b>escape</b> and type <b>:wq</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/qjC0S0l.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>Now that we updated the README.md file, lets verify, type: <b>git status</b> and you can see that it has been modified</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/RYmncjN.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>Lets go ahead and <b>git add .</b> the file that was recently updated and commit it to the repository with a description saying it was updated <b>git commit -m "updated readme"</b></p>
+  <p>Now that is has been updated, lets push this to our recently created repository on github via CLI. Type: <b>git push</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/ayOSZY1.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+  <p>Go back to your github page and refresh the page, You can now see your newly updated repository you made!</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/KlRaDhg.png" height="80%" width="80%" alt="CREATING A REPOSITORY"/>
+
+
+<h1>Git Workflow</h1>
+
+
+
+
+  
