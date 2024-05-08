@@ -161,6 +161,94 @@ Git is a version control system that enables several developers to work together
 
 <h1>Git Workflow</h1>
 
+<p>Run <b>vim README.md</b> press <b>i</b> and add <b>Making new changes git commands</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/sCpp9fu.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Run <b>git status</b> to verify it has been modified</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/x6mkJp3.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Run <b>git add .</b> and verify it has been updated with <b>git status</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/7cexdAV.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Run <b>git commit -m "updated readme file for tutorial</b> to commit the change</p>
+  <p>Run <b>git push</b> to push this update to your github repository on website</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/cn7W28z.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Refresh your page and see the new change!</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/Dd3jSiw.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Back to the CLI, lets run <b>git branch</b> to see what branch were in, we are in the <i>main</i> branch.</p>
+  <p>Lets create a new branch under main, type: <b>git branch tutorial/git</b> verify by typing <b>git branch</b> again</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/JIStP9I.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Lets switch to that new branch, <b>git checkout tutorial/git</b> and verify with <b>git branch</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/a6wLveS.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Now that were in the new branch, lets <b>vim README.md</b> and add a new sentence. Press <b>i</b> and type <b>Making changes from tutorial/git</b>. escape and save with <b>:wq</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/9NLt104.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p><b>git status</b> to verify, <b>git add .</b> then <b>git commit -m "added to readme from tutorial branch"</b> then <b>git push</b></p>
+  <p>Since were in the new branch you'll have to type <b>git push --set-upstream origin tutorial/git</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/ljqDW3N.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Remember were still in the tutorial/git branch <b>git branch</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/tC7SuXr.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Go back to your repository on github and you'll notice a <b>compare & pull request</b> button at the top</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/SFy66d1.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>You can skip this but it is another way to verify what changes were implimented</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/cwxelO7.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Click <b>Compare and Pull Request</b> and click <b>Merge Pull Request</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/65sBRlj.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Now <b>Confirm Merge</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/SvrBYxK.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  
+<p align="center">
+<br/>
+<img src="https://imgur.com/h7mOwtB.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Go back to your repository and you'll see it has been updated</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/xzoTMBF.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Lets go ahead go back to CLI and switch back to main branch <b>git checkout main</b> then <b>vim README.md</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/VcqxIM9.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Notice that in the main branch, the readme file has not been updated compared to your github page</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/kvk0LuA.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+
+<p align="center">
+<br/>
+<img src="https://imgur.com/4RuNPSV.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Lets go ahead and run <b>git pull</b> to pull that update to our current branch. Verify with <b>vim README.md</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/G9Pm1qL.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Nice, the file has been updated in your current branch</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/ZgaeXMH.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+
 
 
 
