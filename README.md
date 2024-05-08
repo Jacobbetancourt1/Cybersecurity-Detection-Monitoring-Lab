@@ -1,4 +1,4 @@
-<h1>Git & Architecture - In Progress</h1>
+<h1>Git & Architecture</h1>
 <p>Welcome to my Git & Architecture Project! I will be utilizing both WSL (<b>For windows machine, you will have to download this first</b>) and github website; We'll go over <i>GIT SSH ACCESS, CREATING A REPOSITORY, GIT WORKFLOW INSTALL AWS CLI, S3 BUCKET, IAM USER, and DESIGNING A BASIC ARCHITECTURE.</i></p>
 <h2>What is a Git & Architecture</h2>
 Git is a version control system that enables several developers to work together on the same project by tracking and managing changes to the codebase over time. Architecture in software refers to a system's high-level structure, including its components, relationships, and how they interact to meet certain needs.
@@ -338,7 +338,11 @@ unzip awscliv2.zip</b></p>
 <p align="center">
 <br/>
 <img src="https://imgur.com/JCoMw0K.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
-
+<br>
+<br>
+<p>Thanks for reading or participating in my project, I hope you learned something new just as I have!</p>
+<br>
+<p><a href="https://medium.com/@jacob.betancourt12">My Medium Stories</a></p>
 
 
 
