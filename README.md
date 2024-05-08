@@ -338,11 +338,18 @@ unzip awscliv2.zip</b></p>
 <p align="center">
 <br/>
 <img src="https://imgur.com/JCoMw0K.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+
+<h1>Basic Web Application Architecture</h1>
+  <p>Utilizing excalidraw, I created this basic web application diagram. I will link my explanation of this diagram to my Medium blog week 2</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/m6jDI0N.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
 <br>
 <br>
+<h2>Reflection</h2>
 <p>Thanks for reading or participating in my project, I hope you learned something new just as I have!</p>
 <br>
-<p><a href="https://medium.com/@jacob.betancourt12">My Medium Stories</a></p>
+<p><a href="https://medium.com/@jacob.betancourt12">My Medium Stories</a> | <a href="https://www.linkedin.com/in/jb-80ab46164/">LinkedIn</a></p>
 
 
 
