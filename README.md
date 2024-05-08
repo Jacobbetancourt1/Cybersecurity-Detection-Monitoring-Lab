@@ -319,6 +319,35 @@ unzip awscliv2.zip</b></p>
 <img src="https://imgur.com/KelzPMk.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
 
 
+<h1>AWS CLI IAM User</h1>
+
+
+<p>Lets goahead and create a user in IAM, type: <b>aws iam create-user --user-name yourusername</b></p>
+<p>Nice, lets list the user, <b>aws iam list-users</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/3LFebKp.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Lets attach a policy to the user you created</p>
+  <p>Type: <b>aws iam attach-user-policy --user-name JacobB --policy-arn arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess</b></p>
+  <p>Nice! Lets list the attached policy to the username, type: <b>aws iam list-attached-user-policies --user-name JacobB</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/CXteiVp.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+<p><i><b>OPTIONAL</b></i></p>
+<p>This is optional but is good practice to know how to create access keys for your users. type: <b>aws iam create-access-key --user-name JacobB</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/JCoMw0K.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+
+
+
+
+
+
+
+
+
+
 
 
   
