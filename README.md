@@ -287,7 +287,7 @@ unzip awscliv2.zip</b></p>
 <p align="center">
 <br/>
 <img src="https://imgur.com/RkOpgos.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
-  <p><i><b>Make sure to save both access key and secret keys to a notepad!</b></i>i></p>
+  <p><i><b>Make sure to save both access key and secret keys to a notepad!</b></i></p>
 <p align="center">
 <br/>
 <img src="https://imgur.com/muiiNK1.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
