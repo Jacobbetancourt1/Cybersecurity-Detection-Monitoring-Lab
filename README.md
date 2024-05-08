@@ -250,6 +250,75 @@ Git is a version control system that enables several developers to work together
 <img src="https://imgur.com/ZgaeXMH.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
 
 
+<h1>Install AWS CLI</h1>
+<p><i><b>Before you start this, you need to go to google and type aws management console and create an account.</b></i></p>
+
+<p>Type: <b>curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/Abmusdw.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Then install AWS CLI with <b>sudo ./aws/install</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/bimUL2l.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>run <b>sudo ./aws/install</b> again and verify version with <b>aws --version</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/WVDmjL7.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+
+
+<h1>AWS CLI - S3 BUCKET</h1>
+
+
+<P>Go to your AWS Management Console and click Security Credentails after clicking your profile at the top right</P>
+<p align="center">
+<br/>
+<img src="https://imgur.com/Nh7y9jB.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Scroll down to Access keys and click create keys</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/HfP8qKQ.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Click Command Line Interface (CLI)</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/rOlBsRx.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Go ahead and give a brief description</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/RkOpgos.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p><i><b>Make sure to save both access key and secret keys to a notepad!</b></i>i></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/muiiNK1.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Go to CLI and type: <b>aws configure</b> and copy your saved access key and secret key into the terminal. Also type the correct region your in</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/VsEmtvC.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Type <b>aws s3 ls</b> to list any buckets you have, You shouldn't have any so lets create one. Type: <b>aws s3 mb s3://Your-bucket-name</b></p>
+  <p>Go ahead and type <b>aws s3 ls</b> again and verify your bucket is there</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/E3DfimL.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Lets go ahead and create a text file, type <b>touch test.txt</b> and then <b>vim test.txt</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/jfqhaHT.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Type whatever you want in the file</p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/WrLxgKK.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Now copy the test.txt file into the bucket, type: <b>aws s3 cp test.txt s3://Your-bucket-name</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/0eRnPcC.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+  <p>Now lets list the bucket again and verify if the test.txt is in there, <b>aws s3 ls s3://Your-bucket-name</b></p>
+  <p>We can also verify the contents we made with <b>cat test.txt</b></p>
+<p align="center">
+<br/>
+<img src="https://imgur.com/KelzPMk.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+
+
 
 
   
