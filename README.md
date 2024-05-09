@@ -252,13 +252,13 @@ Git is a version control system that enables several developers to work together
 
 <h1>Install AWS CLI</h1>
 <p><i><b>Before you start this, you need to go to google and type aws management console and create an account.</b></i></p>
-<p><b><i>Don't click hyperlink, Do this through the CLI!</i></b></p>
+<p><b><i>"Don't click hyperlink, Do this through the CLI!"</i></b></p>
 
 <p>Type: <b>curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip</b></p>
 <p align="center">
 <br/>
-<img src="https://imgur.com/Abmusdw.png" height="80%" width="80%" alt="GIT WORKFLOW"/>
+<img src="https://imgur.com/Abmusdw.png" height="90%" width="90%" alt="GIT WORKFLOW"/>
   <p>Then install AWS CLI with <b>sudo ./aws/install</b></p>
 <p align="center">
 <br/>
