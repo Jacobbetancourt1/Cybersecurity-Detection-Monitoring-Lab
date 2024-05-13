@@ -350,7 +350,7 @@ unzip awscliv2.zip</b></p>
 <h2>Reflection</h2>
 <p>Thanks for reading or participating in my project, I hope you learned something new just as I have!</p>
 <br>
-<p><a href="https://medium.com/@jacob.betancourt12">My Medium Stories</a> | <a href="https://www.linkedin.com/in/jb-80ab46164/">LinkedIn</a></p>
+<p><a href="https://medium.com/@jacob.betancourt12/my-cloud-engineering-journey-week-2-git-cloud-architecture-caecae0b9e63">My Medium Stories</a> | <a href="https://www.linkedin.com/in/jb-80ab46164/">LinkedIn</a></p>
 
 
 
